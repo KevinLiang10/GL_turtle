@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/liangmoqiming/Desktop/Side_project/turtle/GL_turtle/glad.c" "CMakeFiles/OpenGL.dir/glad.c.o" "gcc" "CMakeFiles/OpenGL.dir/glad.c.o.d"
   "/Users/liangmoqiming/Desktop/Side_project/turtle/GL_turtle/main.cpp" "CMakeFiles/OpenGL.dir/main.cpp.o" "gcc" "CMakeFiles/OpenGL.dir/main.cpp.o.d"
+  "/Users/liangmoqiming/Desktop/Side_project/turtle/GL_turtle/turtle.cpp" "CMakeFiles/OpenGL.dir/turtle.cpp.o" "gcc" "CMakeFiles/OpenGL.dir/turtle.cpp.o.d"
   )
 
 # Targets to which this target links.

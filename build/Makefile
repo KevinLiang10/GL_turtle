@@ -177,6 +177,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+turtle.o: turtle.cpp.o
+.PHONY : turtle.o
+
+# target to build an object file
+turtle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/turtle.cpp.o
+.PHONY : turtle.cpp.o
+
+turtle.i: turtle.cpp.i
+.PHONY : turtle.i
+
+# target to preprocess a source file
+turtle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/turtle.cpp.i
+.PHONY : turtle.cpp.i
+
+turtle.s: turtle.cpp.s
+.PHONY : turtle.s
+
+# target to generate assembly for a file
+turtle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OpenGL.dir/build.make CMakeFiles/OpenGL.dir/turtle.cpp.s
+.PHONY : turtle.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... turtle.o"
+	@echo "... turtle.i"
+	@echo "... turtle.s"
 .PHONY : help
 
 

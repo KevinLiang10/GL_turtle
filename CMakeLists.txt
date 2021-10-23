@@ -9,6 +9,6 @@ find_package(glfw3 REQUIRED)
 
 include_directories(${GLAD_INCLUDE})
 
-add_executable(OpenGL main.cpp glad.c)
+add_executable(OpenGL main.cpp glad.c turtle.cpp)
 
 target_link_libraries(OpenGL glfw)

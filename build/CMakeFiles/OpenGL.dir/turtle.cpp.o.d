@@ -1,5 +1,5 @@
-CMakeFiles/OpenGL.dir/main.cpp.o: \
-  /Users/liangmoqiming/Desktop/Side_project/turtle/GL_turtle/main.cpp \
+CMakeFiles/OpenGL.dir/turtle.cpp.o: \
+  /Users/liangmoqiming/Desktop/Side_project/turtle/GL_turtle/turtle.cpp \
   /usr/local/include/glad/glad.h /usr/local/include/KHR/khrplatform.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/stdint.h \
   /Library/Developer/CommandLineTools/usr/bin/../include/c++/v1/__config \
