@@ -1,49 +1,42 @@
-#ifndef _TURTLE
-#define _TURTLE
+#ifndef TURTLE_H
+#define TURTLE_H
+#ifndef _TURTLE_H_INCLUDED_
+#define _TURTLE_H_INCLUDED_ 1
 
+#include <vector>
 
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
-#include <string>
+const unsigned int WIDTH = 1000;
+const unsigned int HEIGHT = 1000;
+const float STEP = 0.001;
 
-class Turtle{
-    protected:
-    
-    unsigned int SCR_WIDTH;
-    unsigned int SCR_HEIGHT;
-    std::string turtleName;
-
-
-    double turtleX = 0.0;
-    double turtleY = 0.0;
-
-    public:
-    GLFWwindow* window;
-
-    Turtle(unsigned int width = 800, unsigned int height = 600, const char * name = "turtle");
-    virtual ~Turtle();
-
-    int getScreenWidth();
-    int getScreenHeight();
-
-    void setScreenWidth(int width);
-    void setScreenHeight(int height);
-
-    double getTurtleWidth();
-    double getTurtleHeight();
-
-    void setTurtleWidth(double width);
-    void setTurtleHeight(double height);
-
-    void forward(double length);
-    void left(double degree);
-    void right(double degree);
-
-
-
-    
-
-
+struct vertex {
+    float x, y, z;
 };
 
+class Turtle
+{
+public:
+    vertex v;
+    float theta;
+    bool down;
+    vertex turtleColor;
+    
+    std::vector<vertex> vertices;
+
+
+    Turtle();
+    ~Turtle();
+    void init(float x = 0, float y = 0, float theta = 0);
+    void show();
+    void forward(float d);
+    void right(float theta);
+    void left(float theta);
+    void setPosition(float x, float y);
+    void penup();
+    void pendown();
+    void color(float r, float g, float b);
+    void circle(float radius);
+};
+
+#endif
 #endif
