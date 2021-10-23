@@ -1,0 +1,3 @@
+/Users/liangmoqiming/Desktop/Side_project/turtle/GL_turtle/build/CMakeFiles/rebuild_cache.dir
+/Users/liangmoqiming/Desktop/Side_project/turtle/GL_turtle/build/CMakeFiles/edit_cache.dir
+/Users/liangmoqiming/Desktop/Side_project/turtle/GL_turtle/build/CMakeFiles/OpenGL.dir
